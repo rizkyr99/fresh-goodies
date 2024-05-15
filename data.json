@@ -1,9 +1,27 @@
 {
-  "favorite-products": [{ "productId": 0 }, { "productId": 1 }],
+  "favorite-products": [
+    {
+      "productId": 0
+    },
+    {
+      "productId": 1
+    }
+  ],
   "cart": [
     {
+      "id": "e61a",
       "productId": 0,
       "quantity": 1000
+    },
+    {
+      "id": "09e2",
+      "productId": 1,
+      "quantity": 1300
+    },
+    {
+      "id": "8cb3",
+      "productId": 2,
+      "quantity": 1200
     }
   ],
   "products": [
