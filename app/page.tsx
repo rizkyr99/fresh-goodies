@@ -4,10 +4,16 @@ import Card from '@/components/Card';
 import Cart from '@/components/Cart';
 import { useCart } from '@/hooks/useCart';
 import { useProduct } from '@/hooks/useProduct';
+import { useEffect } from 'react';
 
 export default function Home() {
   const { products } = useProduct();
-  const { items } = useCart();
+  const items = useCart((state) => state.items);
+  const getAllItems = useCart((state) => state.getAllItems);
+
+  useEffect(() => {
+    getAllItems();
+  }, []);
 
   return (
     <main className='mt-24 max-w-screen-xl mx-auto'>

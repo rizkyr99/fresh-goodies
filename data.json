@@ -9,19 +9,14 @@
   ],
   "cart": [
     {
-      "id": "e61a",
+      "id": "296a",
       "productId": 0,
-      "quantity": 1000
+      "quantity": 2900
     },
     {
-      "id": "09e2",
+      "id": "4b7d",
       "productId": 1,
-      "quantity": 1300
-    },
-    {
-      "id": "8cb3",
-      "productId": 2,
-      "quantity": 1200
+      "quantity": 1500
     }
   ],
   "products": [
